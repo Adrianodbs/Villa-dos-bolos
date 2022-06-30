@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('./header.css');
+@import url('./main.css');
+
+:root{
+  --verde: #60A692;
+  --verde-claro: #AFCBC3;
+  --vinho: #591414;
+  --rosa: #F7A9DF;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Pacifico', cursive; */
+}
+
+body{
+  background-image: url('../img/bg.png');
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+}

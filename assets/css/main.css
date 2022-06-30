@@ -1,0 +1,43 @@
+.bem-vindo{
+  display: flex;
+  padding: 5px 250px;
+  margin-top: 60px;
+  color: var(--vinho);
+  gap: 30px;
+}
+
+.bem-vindo__texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.bem-vindo__texto h3{
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 22px;
+}
+
+.bem-vindo__texto span{
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+}
+
+.bem-vindo__texto p{
+  margin-bottom: 20px;
+}
+
+.bem-vindo__texto a{
+  background-color: var(--verde);
+  border-radius: 8px;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #fff;
+  width: 70%;
+  text-align: center;
+}
+
+.bem-vindo__img img{
+  width: 350px;
+}

@@ -1,0 +1,29 @@
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 250px;
+  background-color: var(--verde);
+}
+
+.cabecalho ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.cabecalho li{
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.cabecalho li:hover{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.logo{
+  width: 70px;
+}
