@@ -7,6 +7,7 @@
   --verde-claro: #AFCBC3;
   --vinho: #591414;
   --rosa: #F7A9DF;
+  --rosa-claro: #F9C9DE;
 }
 
 *{
@@ -24,4 +25,6 @@ body{
   background-position: center;
 
   width: 100%;
+  opacity: 1;
 }
+
