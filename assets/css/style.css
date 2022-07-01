@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('./header.css');
 @import url('./main.css');
+@import url('./itens.css');
 
 :root{
   --verde: #60A692;

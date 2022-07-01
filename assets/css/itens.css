@@ -1,0 +1,56 @@
+.itens{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  color: var(--vinho);
+}
+
+.itens h4{
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.itens span{
+  font-family: 'Pacifico', cursive;
+  font-size: 27px;
+}
+
+.itens__cards{
+  display: flex;
+  padding: 5px 250px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.itens__card{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--verde-claro);
+  border-radius: 10px;
+  width: 200px;
+}
+
+.itens__card img{
+  width: 100%;
+}
+
+.itens__card h2{
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+  font-weight: 300;
+  margin-left: 8px;
+}
+
+.itens__card p{
+  font-size: 12px;
+  margin-bottom: 15px;
+  padding: 3px;
+}
+
+.itens__card a{
+  text-decoration: none;
+  color: var(--vinho);
+  padding: 0 0 10px 20px;
+}
